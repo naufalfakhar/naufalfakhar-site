@@ -1,9 +1,10 @@
+import Footer from '@/components/Footer'
 import Button from '@/components/atoms/Button'
 
 export default function Contact() {
   return (
-    <section className='relative min-h-screen overflow-auto bg-black pb-48 pt-40 text-white'>
-      <div className='container flex flex-col items-center gap-20'>
+    <section className='relative flex h-screen min-h-screen items-center justify-center overflow-auto bg-black text-white '>
+      <div className='container flex flex-col items-center gap-10 lg:gap-20'>
         <h2 className='text-center text-3xl font-semibold uppercase text-primary lg:text-4xl'>
           Contact Me
         </h2>
@@ -13,7 +14,7 @@ export default function Contact() {
           method='POST'
           className='flex flex-col gap-4'
         >
-          <div className='flex gap-4'>
+          <div className='flex flex-col gap-4 lg:flex-row'>
             <div className='flex flex-col gap-2'>
               <label htmlFor='name'>Name</label>
               <input
@@ -48,6 +49,7 @@ export default function Contact() {
           </Button>
         </form>
       </div>
+      <Footer />
     </section>
   )
 }

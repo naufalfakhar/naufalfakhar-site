@@ -14,8 +14,9 @@ export default function About() {
             Hello! I&apos;m <span className='text-primary'>Naufal</span>
           </h1>
           <p className='text-2xl leading-normal text-zinc-400 lg:text-4xl lg:leading-loose'>
-            I am an electrical engineer majoring in industrial electronics, I
-            really like to code. I&apos;m currently learning
+            A results-oriented front-end developer with 1 years of experience
+            creating engaging and user-friendly web interfaces. I have a strong
+            passion for learning new technologies and frameworks.
           </p>
         </div>
         <Link href='/about' className='max-w-fit self-center lg:self-start'>

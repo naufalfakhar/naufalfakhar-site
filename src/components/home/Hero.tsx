@@ -66,7 +66,10 @@ function Content() {
               <RightArrow className='w-4' />
             </Button>
           </Link>
-          <Link href=''>
+          <Link
+            href='https://docs.google.com/document/d/1dEK0z7cC4qUkmj9a3vU8WJUILAKwgs4Z_gThOh12Z2Q/edit?usp=sharing'
+            target='_blank'
+          >
             <Button variant='secondary'>
               Resume
               <Docs className='w-4' />

@@ -3,7 +3,7 @@ type Props = { random: number }
 export default function MeteorRow({ random }: Props) {
   return (
     <div className='absolute inset-0 -z-20 hidden select-none flex-col justify-around md:flex'>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((i) => (
+      {Array.from(Array(12).keys()).map((i) => (
         <div
           key={i}
           className='relative h-px w-full bg-gradient-to-r from-transparent from-0% via-zinc-800 to-transparent to-100%'

@@ -3,7 +3,7 @@ type Props = { random: number }
 export default function MeteorCol({ random }: Props) {
   return (
     <div className='absolute inset-0 -z-20 hidden select-none grid-cols-12 place-items-center lg:grid'>
-      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((i) => (
+      {Array.from(Array(12).keys()).map((i) => (
         <div
           key={i}
           className='relative h-full w-px bg-gradient-to-b from-transparent from-0% via-zinc-800 to-transparent to-100%'

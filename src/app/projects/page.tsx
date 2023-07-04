@@ -25,6 +25,22 @@ export default function Page() {
             image={'/erc-site.png'}
             alt='ERC site'
           />
+          <ProjectTemplate
+            title='Anime Collection'
+            tech={['React', 'Vite', 'Emotion']}
+            live='https://naufal-anime-collection.vercel.app/'
+            repos='https://github.com/naufalfakhar/anime-collection'
+            image={'/anicollect.png'}
+            alt='Anime Collection'
+          />
+          <ProjectTemplate
+            title='Anime Collection Refactored'
+            tech={['React', 'Vite', 'Emotion']}
+            live='https://anime-collection-git-refactored-naufalfakhar.vercel.app/'
+            repos='https://github.com/naufalfakhar/anime-collection/tree/refactored'
+            image={'/anicollect-refactored.png'}
+            alt='Anime Collection Refactored'
+          />
         </div>
       </div>
       <Footer />
